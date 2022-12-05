@@ -1,13 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 body {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
 }
+
+.main-color {
+  color: #338573;
+}
+
+.btn-primary, .btn-primary:hover {
+  background-color: #338573;
+  border-color: #338573;
+  border-radius: 10px;
+  padding: 5px 25px;
+}
+
+.bg-primary {
+  background-color: #338573 !important;
+}
+
+.main-background {
+  background-color: #338573;
+}
+
+.float-right {
+  float: right;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+/* Navbar */
+.navbar {
+  padding: 20px;
+  background-color: #fff;
+
+}
+.nav-item .nav-link {
+    color: #338573;
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  .btn-primary {
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 25px;
+  }
+
+  .navbar-brand {
+    color: #338573;
+    font-weight: bolder;
+    font-size: 28px;
+  }
