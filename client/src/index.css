@@ -45,20 +45,73 @@ a {
   background-color: #fff;
 
 }
+
 .nav-item .nav-link {
     color: #338573;
     font-weight: 500;
     font-size: 17px;
-  }
+}
 
-  .btn-primary {
+.btn-primary {
     font-weight: 500;
     font-size: 20px;
     margin-left: 25px;
-  }
+}
 
-  .navbar-brand {
+.navbar-brand {
     color: #338573;
     font-weight: bolder;
     font-size: 28px;
-  }
+}
+
+/*Homepage*/
+.homepage {
+  background-image: url('./assets/Homepage_Image.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.intro {
+    padding: 55px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 65px;
+    line-height: 70px;
+}
+
+p {
+    color: #616161d5;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.search-form {
+  margin-top: 70px;
+}
+
+.input-group input {
+  height: 55px;
+  background-color: #fff;
+  border-radius: 20px 0px 0px 20px;
+  border: none;
+}
+
+::placeholder {
+    color: #AEB0B4;
+    font-size: 15px;
+}
+
+:focus,
+:active {
+  box-shadow: none;
+}
+
+.input-group-append button {
+  margin-left: 1px;
+  height: 55px;
+  border-radius: 0px 10px 10px 0px;
+}
