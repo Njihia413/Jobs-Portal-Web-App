@@ -8,8 +8,9 @@ import { Routes, Route }  from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer';
 import Login from './components/Login';
-import SignUp from './components/SignUp';
+import Register from './components/Register';
 import CreateJobForm from './components/CreateJobForm';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,7 +19,7 @@ ReactDOM.render(
         <Routes>
           <Route path="/" element={<App />} />
           <Route path='/login' element={<Login/>} />
-          <Route path="/signup" element={<SignUp />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/create-a-job" element={<CreateJobForm/>}/>
         </Routes>
       <Footer/>

@@ -3,7 +3,7 @@ import React from "react";
 function Login () {
     return(
         <>
-         <section className="top-header">
+        <section className="top-header">
             <div className="row text-center">
                 <div className="col-md-12">
                     <h3>Login</h3>
@@ -36,7 +36,7 @@ function Login () {
                                     </div>
                                     <div className="col-md-12 text-center">
                                         <div className="form-group">
-                                            <p>Not a member? <strong><a className="main-color" href="/signup">Register</a></strong></p>
+                                            <p>Not a member? <strong><a className="main-color" href="/register">Register</a></strong></p>
                                         </div>
                                     </div>
                                 </div>
