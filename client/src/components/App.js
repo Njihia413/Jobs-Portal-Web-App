@@ -1,5 +1,6 @@
 import React from 'react';
 import Categories from './Categories';
+import Footer from './Footer';
 import Homepage from './Homepage';
 import JobsList from './JobsList';
 import Navbar from './Navbar';
@@ -11,6 +12,7 @@ function App() {
       <Homepage/>
       <Categories/>
       <JobsList/>
+      <Footer/>
     </div>
   );
 }
