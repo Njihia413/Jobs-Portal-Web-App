@@ -1,6 +1,7 @@
 import React from 'react';
 import Categories from './Categories';
 import Homepage from './Homepage';
+import JobsList from './JobsList';
 import Navbar from './Navbar';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Homepage/>
       <Categories/>
+      <JobsList/>
     </div>
   );
 }

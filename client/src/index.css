@@ -133,3 +133,54 @@ h4 {
   font-size: 17px;
   font-weight: 600;
 }
+
+/*Jobs List*/
+.job-card {
+  margin-bottom: 40px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.text-muted {
+  font-size: 13px;
+}
+
+.h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logo {
+  text-align: center;
+  background-color: #338573;
+  margin: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.h4-logo {
+  margin-top: 20px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.icon i {
+  color: #338573;
+}
+
+.desc p {
+  font-size: 14px;
+}
+
+.view-details {
+  text-align: center;
+  margin: 38px 0px 0px 30px;
+  background-color: #338573;
+  padding: 11px 19px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}

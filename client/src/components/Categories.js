@@ -19,9 +19,9 @@ function Categories() {
           </div>
           <div className="row text-center">
             {categories.map((category) => (
-              <div className="col-md-4">
+              <div className="col-md-4" key={category.id}>
                 <div className="card">
-                  <FontAwesomeIcon icon={faBriefcase} />
+                  <FontAwesomeIcon icon={faBriefcase} className="icon"/>
                   <h4 className="main-color">{category.name}</h4>
                 </div>
               </div>
