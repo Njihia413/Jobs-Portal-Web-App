@@ -1,6 +1,6 @@
 import React from "react";
 
-function Homepage () {
+function HomeBanner () {
     return (
         <section className="homepage">
             <div className="row">
@@ -31,4 +31,4 @@ function Homepage () {
     )
 }
 
-export default Homepage;
+export default HomeBanner;

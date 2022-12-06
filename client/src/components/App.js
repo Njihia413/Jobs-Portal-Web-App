@@ -1,14 +1,22 @@
-import React from 'react';
-import Categories from './Categories';
-import Homepage from './Homepage';
-import JobsList from './JobsList';
+import { Routes, Route }  from "react-router-dom";
+import Navbar from "./Navbar";
+import Login from "./Login";
+import Register from "./Register";
+import CreateJobForm from "./CreateJobForm";
+import Footer from "./Footer";
+import MainPage from "./MainPage";
 
 function App() {
   return (
     <div className="App">
-      <Homepage/>
-      <Categories/>
-      <JobsList/>
+      <Navbar/>
+        <Routes>
+          <Route path="/" element={<MainPage/>}/>
+          <Route path='/login' element={<Login/>} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/create-a-job" element={<CreateJobForm/>}/>
+        </Routes>
+      <Footer/>
     </div>
   );
 }

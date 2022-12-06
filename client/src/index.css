@@ -252,3 +252,39 @@ h4 {
   padding: 10px 20px;
   float: right;
 }
+
+/*Buttons*/
+.btn-primary,
+.btn-primary:hover {
+  background-color: #338573;
+  border-color: #338573;
+  border-radius: 10px;
+  padding: 5px 25px;
+}
+
+.btn-border-outline {
+  background-color: transparent;
+  border: 1px solid #AAAAAA;
+  color: #338573;
+  margin-right: 20px;
+}
+
+.btn-apply {
+  background-color: #338573;
+  border: 1px solid #338573;
+  color: #fff;
+}
+
+.btn-apply:hover {
+  background-color: transparent;
+  color: #338573;
+  border: 1px solid #338573;
+}
+
+.login:hover,
+.view-details:hover,
+.btn-post-job:hover {
+  background-color: transparent;
+  border: 1px solid #338573;
+  color: #338573;
+}

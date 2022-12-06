@@ -4,25 +4,12 @@ import './index.css';
 import App from './components/App'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import { Routes, Route }  from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from './components/Footer';
-import Login from './components/Login';
-import Register from './components/Register';
-import CreateJobForm from './components/CreateJobForm';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Navbar/>
-        <Routes>
-          <Route path="/" element={<App />} />
-          <Route path='/login' element={<Login/>} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/create-a-job" element={<CreateJobForm/>}/>
-        </Routes>
-      <Footer/>
+      <App/>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
