@@ -12,7 +12,7 @@ function Navbar() {
                                 <a className="nav-link main-color" href="/login">Login</a>
                             </li>
                             <li className="nav-item">
-                                <a className="btn btn-primary" href="create-a-job">Post a job</a>
+                                <a className="btn btn-primary" href="/create-a-job">Post a job</a>
                             </li>
                         </ul>
                     </div>
