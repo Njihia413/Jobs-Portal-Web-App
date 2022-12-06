@@ -184,3 +184,57 @@ h4 {
   color: #fff;
   cursor: pointer;
 }
+
+/*Login*/
+.top-header {
+  background-color: #F6F7FA;
+  padding: 40px;
+}
+
+.auth-card {
+  padding: 20px;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.login {
+  width: 100%;
+  background-color: #338573;
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.required::after {
+  content: " *";
+  color: red;
+}
+
+/* Forms */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 10px;
+}
+
+.form-group select {
+  height: 49px;
+}
+    :focus,
+    :active {
+      box-shadow: none
+}
+
+.form-group input {
+  height: 49px;
+}
+  ::placeholder {
+    color: #AEB0B4;
+    font-size: 15px;
+  }
+
+  :focus,
+  :active {
+      box-shadow: none;
+    }
