@@ -115,3 +115,21 @@ p {
   height: 55px;
   border-radius: 0px 10px 10px 0px;
 }
+
+/*Categories*/
+.categories {
+  background-color: #F6F7FA;
+  padding-bottom: 50px;
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+h4 {
+  font-size: 17px;
+  font-weight: 600;
+}

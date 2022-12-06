@@ -17,9 +17,9 @@ function Homepage () {
                                 <div className="input-group">
                                     <input type="text" className="form-control" placeholder="Search by job title......" name="query" required></input>
                                     <div className="input-group-append">
-                                    <button className="btn btn-primary btn-search" type="submit">
-                                        Search
-                                    </button>
+                                        <button className="btn btn-primary btn-search" type="submit">
+                                            <small>Search</small>
+                                        </button>
                                     </div>
                                 </div>
                             </form>
