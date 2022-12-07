@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function JobsList () {
     const [jobs, setJobs] = useState([]);
@@ -46,9 +47,9 @@ function JobsList () {
                                         </div>
                                     </div>
                                     <div className="col-md-3 float-right">
-                                        <a href="/" className="btn view-details">
+                                        <Link to={`/view-details/${job.id}`} className="btn view-details">
                                             View Details
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

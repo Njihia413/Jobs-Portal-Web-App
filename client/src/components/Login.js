@@ -60,7 +60,7 @@ function Login ({ setUser }) {
                                     </div>
                                     <div className="col-md-12">
                                         <div className="form-group">
-                                            <label htmlFor="password" class="required">Password</label>
+                                            <label htmlFor="password" className="required">Password</label>
                                             <input 
                                                 type="password" 
                                                 id="password"

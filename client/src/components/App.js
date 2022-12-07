@@ -6,6 +6,7 @@ import Register from "./Register";
 import CreateJobForm from "./CreateJobForm";
 import Footer from "./Footer";
 import MainPage from "./MainPage";
+import JobDetails from "./JobDetails";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -29,6 +30,7 @@ function App() {
           <Route path='/login' element={<Login/>} />
           <Route path="/register" element={<Register setUser={setUser} />} />
           <Route path="/create-a-job" element={<CreateJobForm/>} />
+          <Route path="/view-details/:jobId" element={<JobDetails/>} />
         </Routes>
       <Footer/>
     </div>
