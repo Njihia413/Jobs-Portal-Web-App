@@ -53,20 +53,20 @@ function CreateJobForm () {
                 "experience": experience,
                 "qualification":qualification,
                 "link_to_job": jobLink,
+                "user_id": 2
             }
             ),
         }).then((r) => {
           setIsLoading(false);
           if (r.ok) {
               r.json().then((data) => console.log(data));
-              e.target.reset();
+              //e.target.reset();
           } else {
               r.json().then((err) => setErrors(err.errors));
           }
         });
     }
 
-    console.log(companyName)
     return (
         <>
         <section className="top-header">

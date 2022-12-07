@@ -292,3 +292,20 @@ h4 {
 p {
   font-size: 13px;
 }
+
+/*My Jobs List Table*/
+.table-card {
+  border: 1px solid #D6D6D6;
+  border-radius: 10px;
+}
+
+.table tbody tr td,
+.table thead tr th {
+  padding: 20px 10px;
+}
+
+i {
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}

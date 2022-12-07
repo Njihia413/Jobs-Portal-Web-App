@@ -28,6 +28,11 @@ class JobsController < ApplicationController
         head :no_content
     end
 
+    def userjobs
+        jobs = Job.where(user_id: params[:id])
+        render json: jobs
+    end
+
     private
     def job_params
         params.permit(:company_name, :company_phone, :company_website, :company_linkedin, 

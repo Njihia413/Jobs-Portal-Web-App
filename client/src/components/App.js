@@ -7,6 +7,7 @@ import CreateJobForm from "./CreateJobForm";
 import Footer from "./Footer";
 import MainPage from "./MainPage";
 import JobDetails from "./JobDetails";
+import MyJobsList from "./MyJobsList";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -31,6 +32,7 @@ function App() {
           <Route path="/register" element={<Register setUser={setUser} />} />
           <Route path="/create-a-job" element={<CreateJobForm/>} />
           <Route path="/view-details/:jobId" element={<JobDetails/>} />
+          <Route path="/my-jobs-list" element={<MyJobsList/>}/>
         </Routes>
       <Footer/>
     </div>
