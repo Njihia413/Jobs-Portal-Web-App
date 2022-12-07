@@ -1,6 +1,6 @@
 class CategoriesController < ApplicationController
-rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response
-
+    rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response
+    
     def index
         categories = Category.all
         render json: categories
