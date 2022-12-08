@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Login from "./Login";
 import Register from "./Register";
 import CreateJobForm from "./CreateJobForm";
+import EditJobDetails from "./EditJobDetails";
 import Footer from "./Footer";
 import MainPage from "./MainPage";
 import JobDetails from "./JobDetails";
@@ -32,6 +33,7 @@ function App() {
           <Route path="/register" element={<Register setUser={setUser} />} />
           <Route path="/create-a-job" element={<CreateJobForm/>} />
           <Route path="/view-details/:jobId" element={<JobDetails/>} />
+          <Route path="/update-details/:jobId" element={<EditJobDetails/>} />
           <Route path="/my-jobs-list" element={<MyJobsList/>}/>
         </Routes>
       <Footer/>

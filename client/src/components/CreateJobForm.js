@@ -27,8 +27,27 @@ function CreateJobForm () {
     const [jobLink, setJobLink] = useState("");
     const [jobDescription, setJobDescription] = useState("");
 
+    const [createJob, setCreateJob] = useState(false);
+
     function handleSubmit(e) {
         e.preventDefault();
+        // setCompanyName("")
+        // setCompanyPhone("")
+        // setCompanyWebsite("")
+        // setCompanyLinkedIn("")
+        // setCompanyLogo("")
+        // setCompanyLocation("")
+        // setTitle("")
+        // setCategory("")
+        // setJobType("")
+        // setJobLocation("")
+        // setSalaryRange("")
+        // setExperience("")
+        // setQualification("")
+        // setApplicationDeadline("")
+        // setJobLink("")
+        // setJobDescription("")
+
         setIsLoading(true);
         fetch("/jobs", {
           method: "POST",
@@ -58,6 +77,7 @@ function CreateJobForm () {
             ),
         }).then((r) => {
           setIsLoading(false);
+          setCreateJob(true);
           if (r.ok) {
               r.json().then((data) => console.log(data));
               //e.target.reset();
@@ -76,6 +96,15 @@ function CreateJobForm () {
                 </div>
             </div>
         </section>
+
+        {createJob ? 
+        <div className="container mt-3 text-center" id="success">
+            <div className="alert alert-success" role="alert">
+                Job created successfully 😎. Click on My Jobs to view the created job
+            </div>
+        </div>
+        : ""}
+        
         <section className="create-job">
             <div className="p-3">
                 <div className="create-job-card">

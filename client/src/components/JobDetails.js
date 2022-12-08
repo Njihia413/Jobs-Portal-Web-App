@@ -17,6 +17,7 @@ function JobDetails () {
         .then(response => response.json())
         .then(data => setJobDetails(data))
     },[jobId])
+    
 
     return (
         <>

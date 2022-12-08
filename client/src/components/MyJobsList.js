@@ -27,7 +27,7 @@ export default function MyJobsList() {
       </section>
 
       {deleteJob ? 
-        <div className="container mt-3" id="danger">
+        <div className="container mt-3 text-center" id="danger">
             <div className="alert alert-danger" role="alert">
                 Job deleted😥!
             </div>

@@ -43,6 +43,8 @@ export default function EditJobDetails() {
   const [jobLink, setJobLink] = useState("");
   const [jobDescription, setJobDescription] = useState("");
 
+  const [updateJob, setUpdateJob] = useState(false);
+
   function handlePatchSubmit(e) {
     e.preventDefault();
     setIsLoading(true);
@@ -72,6 +74,7 @@ export default function EditJobDetails() {
       }),
     }).then((r) => {
       setIsLoading(false);
+      setUpdateJob(true);
       if (r.ok) {
         r.json().then((data) => console.log(data));
         //e.target.reset();
@@ -90,7 +93,15 @@ export default function EditJobDetails() {
           </div>
         </div>
       </section>
-      
+
+      {updateJob ? 
+        <div className="container mt-3 text-center" id="success">
+            <div className="alert alert-success" role="alert">
+                Job updated successfully 😎. Click on My Jobs to view the updated job details
+            </div>
+        </div>
+        : ""}
+
       <section className="create-job">
         <div className="p-3">
           <div className="create-job-card">
