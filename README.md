@@ -39,6 +39,10 @@ $ npm update
 $ cd ..
 $ gem install rails
 ```
+* Run the migrations and seed the data
+```
+$ rails db:migrate db:seed
+```
 * Start the rails server
 ```
 $ rails s
