@@ -65,6 +65,8 @@ Backend Live Links:
 * https://jobs-portal-production.up.railway.app/jobs
 * https://jobs-portal-production.up.railway.app/categories
 
+Frontend Link:
+* https://jobs-portal-web-app.vercel.app/
 
 # Some Screenshots
 * Homepage
