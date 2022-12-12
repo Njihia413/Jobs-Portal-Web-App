@@ -60,6 +60,12 @@ $ npm start --prefix client
 * Ruby on Rails
 * SQLite3 Database
 
+# Live Links
+Backend Live Links:
+* https://jobs-portal-production.up.railway.app/jobs
+* https://jobs-portal-production.up.railway.app/categories
+
+
 # Some Screenshots
 * Homepage
 
