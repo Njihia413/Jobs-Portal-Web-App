@@ -51,7 +51,7 @@ $ rails s
 ```
 $ npm start --prefix client
 ```
-* To view the server, navigate to http://localhost:3000/jobs
+* To view the server, navigate to http://localhost:3000/jobs and http://localhost:3000/categories
 * TO view the client application, navigate to http://localhost:4000
 
 # Technologies Used
