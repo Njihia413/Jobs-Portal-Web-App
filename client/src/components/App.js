@@ -22,14 +22,14 @@ function App() {
     });
   }, []);
 
-  if (!user) return <Login setUser={setUser} />;
+  // if (!user) return <Login setUser={setUser} />;
 
   return (
     <div className="App">
       <Navbar user={user} setUser={setUser}/>
         <Routes>
           <Route path="/" element={<MainPage/>}/>
-          <Route path='/login' element={<Login/>} />
+          <Route path='/login' element={<Login setUser={setUser}/>} />
           <Route path="/register" element={<Register setUser={setUser} />} />
           <Route path="/create-a-job" element={<CreateJobForm/>} />
           <Route path="/view-details/:jobId" element={<JobDetails/>} />
