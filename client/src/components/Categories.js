@@ -5,7 +5,7 @@ import {faBriefcase} from "@fortawesome/free-solid-svg-icons";
 function Categories() {
   const [categories, setCategories] = useState([]);
   useEffect(() => {
-    fetch("https://jobs-portal-production.up.railway.app/categories")
+    fetch("/categories")
       .then((response) => response.json())
       .then((data) => setCategories(data));
   }, []);

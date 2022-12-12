@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function JobsList () {
     const [jobs, setJobs] = useState([]);
     useEffect(() => {
-        fetch("/https://jobs-portal-production.up.railway.app/jobs")
+        fetch("/jobs")
         .then((response) => response.json())
         .then((data) => setJobs(data));
     }, []);
