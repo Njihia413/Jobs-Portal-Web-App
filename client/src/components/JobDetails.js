@@ -8,7 +8,7 @@ function JobDetails () {
     console.log(jobId)
 
     useEffect(() => {
-        fetch(`/jobs/${jobId}`, {
+        fetch(`https://jobs-portal-json-server-vercel.vercel.app/jobs/${jobId}`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
