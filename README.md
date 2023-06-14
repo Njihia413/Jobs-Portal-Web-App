@@ -18,15 +18,15 @@ Moringa Phase 4 Independent Project on a Jobs Portal Web App that allows users t
 # Setup Installation 
 * Copy the link of this repository
 ```
-$ https://github.com/Njihia413/phase-4-project.git
+$ https://github.com/Njihia413/Jobs-Portal-Web-App.git
 ```
 * Clone it to your local machine
 ```
-$ git clone https://github.com/Njihia413/phase-4-project.git
+$ git clonehttps://github.com/Njihia413/Jobs-Portal-Web-App.git
 ```
 * Open the terminal and navigate to the directory of the project
 ```
-$ cd phase-4-project
+$ cd Jobs-Portal-Web-App
 ```
 * Navigate to the client folder and install the required dependencies
 ```
