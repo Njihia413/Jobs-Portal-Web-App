@@ -62,8 +62,8 @@ $ npm start --prefix client
 
 # Live Links
 Backend Live Links:
-* https://jobs-portal-production.up.railway.app/jobs
-* https://jobs-portal-production.up.railway.app/categories
+* https://jobs-portal-json-server-vercel.vercel.app/jobs
+* https://jobs-portal-json-server-vercel.vercel.app/categories
 
 Frontend Link:
 * https://jobs-portal-web-app.vercel.app/
