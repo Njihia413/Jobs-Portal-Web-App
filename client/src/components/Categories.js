@@ -5,7 +5,7 @@ import {faBriefcase} from "@fortawesome/free-solid-svg-icons";
 function Categories() {
   const [categories, setCategories] = useState([]);
   useEffect(() => {
-    fetch("/categories")
+    fetch("https://jobs-portal-json-server-vercel.vercel.app/categories")
       .then((response) => response.json())
       .then((data) => setCategories(data));
   }, []);
