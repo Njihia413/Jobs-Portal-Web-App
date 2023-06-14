@@ -22,7 +22,7 @@ $ https://github.com/Njihia413/Jobs-Portal-Web-App.git
 ```
 * Clone it to your local machine
 ```
-$ git clonehttps://github.com/Njihia413/Jobs-Portal-Web-App.git
+$ git clone https://github.com/Njihia413/Jobs-Portal-Web-App.git
 ```
 * Open the terminal and navigate to the directory of the project
 ```
